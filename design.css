@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Navigation */
+.nav_bar{
+    background-color: #36192133;
+    color: #361921;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 35px;
+}
+.logo-img {
+    width: 15.5px;
+    height: 20.5px;
+    border: 1px 0px 0px 0px;
+}
+.logo-txt {
+    margin-right: 25px;
+}
+.nav_sec{
+    margin-right: 25px;
+}
+.nav{
+    display: flex;
+    margin-left: 50px;
+}
+.nav_bar ul li {
+    margin-left: 15px;
+    font-family: "Work Sans", sans-serif;
+}
+.nav_bar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #361921;
+    font-size: 18px;
+}
+.nav_bar ul{
+    list-style: none;
+}
+
+
+/* Profile */
+.hero_sec{
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-around;
+}
+.extra_img{
+    height: 25px;
+    width: 150px;
+}
+.organize .start {
+    margin-bottom: 50px;
+}
+.organize .end {
+    margin-bottom: 50px;
+}
+.pfp{
+    width: 250px;
+    height: 368px;
+}
+.organize h1 {
+    font-family: "Work Sans", sans-serif;
+    color: #361921;
+}
+
+
+/* About Sec */
+.about{
+    background-color: #361921;
+    color: #ffff;
+    margin: 0 auto;
+    height: 625px;
+    padding-top: 50px;
+}
+
+.container {
+    margin-top: 90px;
+    scale: 1.2;
+}
+.header{
+    margin: 0 auto;
+    height: 122px;
+    width: 500px;
+}
+.header span{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Work Sans", sans-serif;
+}
+.header hr{
+    opacity: 0.5;
+    width: 80%;
+    margin: 0 auto;
+}
+.organize {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.round-pfp {
+    margin-right: 50px;
+    height: 225px;
+    width: 225px;
+}
+.container-about{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 650px;
+}
+.about-me{
+    size: 20px;
+    line-height: 25px;
+    width: 623px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    font-style: italic;
+}
+.arrow{
+    width: 52.8;
+    height: 70px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-me
+
+
+/* Quote Section */
+.quote_sec {
+    background-image: url(asset/bg-img.png);
+}
+#quote-section {
+    background: url('asset\bg-img.png') no-repeat center center;
+    background-size: cover;
+    padding: 120px 0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+
+/* input area */
+.quote-gen{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.quote-gen h2{
+    font-family: "Work Sans", sans-serif;
+    color: #361921;
+}
+.gen-cont{
+    margin: 0 auto;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    border: none;
+    border-bottom: 1px  #361921 solid;
+    opacity: 0.9;
+    width: 400px;
+    color: #361921;
+}
+label{
+    font-weight: bold;
+    opacity: 0.9;
+}
+.quote-gen .send-button {
+    width: 70px;
+    height:25px;
+    background-color: #361921;
+    color: #ffff;
+    justify-content: end;
+    align-items: end;
+    margin-left: 66%;
+}
+
+
+/* footer */
+.footer {
+    background-color: #361921;
+    color: #fff;
+    height: 15px;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: center;
+}
