@@ -11,7 +11,7 @@
 /* Navigation */
 .nav_bar{
     background-color: #36192133;
-    color: #361921;
+    color: #351921;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -200,7 +200,11 @@ label{
     color: #ffff;
     justify-content: end;
     align-items: end;
-    margin-left: 66%;
+    margin-left: 76%;
+    border: none;
+}
+.gen-cont a{
+    width: 100%;
 }
 
 
@@ -215,4 +219,26 @@ label{
     font-weight: 400;
     line-height: 14.52px;
     text-align: center;
+}
+
+/* EXTRA */
+/* nav bar */
+ul, li {
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+ul li:hover {
+    background-color: #b4b4b4;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button */
+.quote-gen a button:hover {
+    cursor: pointer;
+    background-color: #421f29f8;
+    transition: all 0.3s ease;
+    border: none;
 }
